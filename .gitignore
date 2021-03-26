@@ -11,6 +11,7 @@
 .DS_Store
 *.icloud
 *.xml
+*.csv
 wp-content/cache/
 wp-content/upgrade/
 wp-content/ai1wm-backups
