@@ -24,6 +24,7 @@
 
 	astra_generate_outside_font_family_css( 'astra-settings[font-family-page-title]', '.blog .entry-title, .blog .entry-title a, .archive .entry-title, .archive .entry-title a, .search .entry-title, .search .entry-title a' );
 	astra_generate_font_weight_css( 'astra-settings[font-family-page-title]', 'astra-settings[font-weight-page-title]', 'font-weight', '.blog .entry-title, .blog .entry-title a, .archive .entry-title, .archive .entry-title a, .search .entry-title, .search .entry-title a' );
+	astra_css( 'astra-settings[font-weight-page-title]', 'font-weight', '.blog .entry-title, .blog .entry-title a, .archive .entry-title, .archive .entry-title a, .search .entry-title, .search .entry-title a' );
 	astra_css( 'astra-settings[line-height-page-title]', 'line-height', '.blog .entry-title, .blog .entry-title a, .archive .entry-title, .archive .entry-title a, .search .entry-title, .search .entry-title a' );
 	astra_css( 'astra-settings[text-transform-page-title]', 'text-transform', '.blog .entry-title, .blog .entry-title a, .archive .entry-title, .archive .entry-title a, .search .entry-title, .search .entry-title a' );
 
@@ -235,7 +236,11 @@
 	for ( var index = 1; index <= astTypography.component_limit; index++ ) {
 
 		var prefix = 'menu' + index;
-		var selector = '.astra-hfb-header .ast-builder-menu-' + index + '.ast-builder-menu .main-header-menu';
+		var selector = '.ast-hfb-header .ast-builder-menu-' + index + '.ast-builder-menu .main-header-menu';
+
+		if ( astTypography.astra_not_updated ) {
+			selector = '.astra-hfb-header .ast-builder-menu-' + index + '.ast-builder-menu .main-header-menu';
+		}
 
 		// Sub-Menu Typography.
 		astra_generate_outside_font_family_css(
@@ -297,7 +302,11 @@
 	 * Mobile menu - Typography
 	 */
 
-	var selector = '.astra-hfb-header .ast-builder-menu-mobile .main-header-menu';
+	var selector = '.ast-hfb-header .ast-builder-menu-mobile .main-header-menu';
+
+	if ( astTypography.astra_not_updated ) {
+		selector = '.astra-hfb-header .ast-builder-menu-mobile .main-header-menu';
+	}
 
 	// Sub-Menu Typography.
 	astra_generate_outside_font_family_css(

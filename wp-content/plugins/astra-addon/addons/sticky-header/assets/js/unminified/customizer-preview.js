@@ -171,7 +171,7 @@
 			astra_color_responsive_css('sticky-header-menu-link', 'astra-settings[sticky-below-header-menu-color-responsive]','color', '.ast-below-sticky-header-active .ast-below-header-menu, .ast-below-sticky-header-active .ast-below-header-menu .menu-link,.ast-below-sticky-header-active .below-header-user-select .widget,.ast-below-sticky-header-active .below-header-user-select .widget-title,.ast-below-sticky-header-active .below-header-user-select, .ast-below-sticky-header-active .below-header-user-select a, .ast-below-sticky-header-active .below-header-user-select .widget a' );
 			astra_color_responsive_css('sticky-header-search-border', 'astra-settings[sticky-below-header-menu-color-responsive]','border-color', '.ast-below-sticky-header-active .below-header-user-select input.search-field:focus, .ast-below-sticky-header-active .below-header-user-select input.search-field.focus' );
 			astra_color_responsive_css('sticky-header', 'astra-settings[sticky-below-header-menu-h-color-responsive]','color', '.ast-below-sticky-header-active .ast-below-header-menu .menu-item:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.focus > .menu-link,.ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-ancestor > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-item > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-ancestor > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-item > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:hover > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:focus > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor.focus > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:hover > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:focus > .ast-menu-toggle, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item.focus > .ast-menu-toggle,.ast-below-sticky-header-active .below-header-user-select a:hover, .ast-below-sticky-header-active .below-header-user-select .widget a:hover, #ast-fixed-header .below-header-user-select .widget a:hover, .ast-header-break-point .ast-below-header-menu .menu-item:hover > .ast-menu-toggle' );
-			astra_color_responsive_css('sticky-header', 'astra-settings[sticky-below-header-menu-h-a-bg-color-responsive]','background-color', '.ast-below-sticky-header-active .ast-below-header-menu .menu-item:hover > .menu-link, .ast-below-header-menu .menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-ancestor > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-item > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item.focus > .menu-link' );
+			astra_color_responsive_css('sticky-header', 'astra-settings[sticky-below-header-menu-h-a-bg-color-responsive]','background-color', '.ast-below-sticky-header-active .ast-below-header-menu .menu-item:hover > .menu-link, .ast-below-header-menu .menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-ancestor > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .menu-item.current-menu-item > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-ancestor.focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:hover > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item:focus > .menu-link, .ast-below-sticky-header-active .ast-below-header-menu .sub-menu .menu-item.current-menu-item.focus > .menu-link, .ast-desktop .ast-mega-menu-enabled.ast-below-header-menu .menu-item .menu-link:hover' );
 
 			// Sticky -- below Header Submenu.
 			astra_color_responsive_css('sticky-header', 'astra-settings[sticky-below-header-submenu-bg-color-responsive]','background-color', '.ast-below-sticky-header-active .ast-below-header-menu .sub-menu' );
@@ -597,26 +597,32 @@
 
 		var selector = '.ast-header-sticked .header-widget-area[data-section="sidebar-widgets-header-widget-' + index + '"]';
 
+		if( astSticky.is_flex_based_css ){
+			selector = selector + '.header-widget-area-inner';
+		}else{
+			selector = selector + ' .header-widget-area-inner';
+		}
+
 		// Widget Content Color.
-		astra_css(
-			'astra-settings[sticky-header-widget-' + index + '-color]',
-			'color',
-			selector + ' .header-widget-area-inner'
-		);
+			astra_css(
+				'astra-settings[sticky-header-widget-' + index + '-color]',
+				'color',
+				selector
+			);
 
-		// Widget Link Color.
-		astra_css(
-			'astra-settings[sticky-header-widget-' + index + '-link-color]',
-			'color',
-			selector + ' .header-widget-area-inner a'
-		);
+			// Widget Link Color.
+			astra_css(
+				'astra-settings[sticky-header-widget-' + index + '-link-color]',
+				'color',
+				selector + ' a'
+			);
 
-		// Widget Link Hover Color.
-		astra_css(
-			'astra-settings[sticky-header-widget-' + index + '-link-h-color]',
-			'color',
-			selector + ' .header-widget-area-inner a:hover'
-		);
+			// Widget Link Hover Color.
+			astra_css(
+				'astra-settings[sticky-header-widget-' + index + '-link-h-color]',
+				'color',
+				selector + ' a:hover'
+			);
 
 		// Widget Title Color.
 		astra_css(

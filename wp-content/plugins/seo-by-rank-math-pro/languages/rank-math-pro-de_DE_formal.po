@@ -2,8 +2,8 @@
 # This file is distributed under the same license as the rank-math-pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: RankMath Pro v2.3.0.0\n"
-"POT-Creation-Date: 2021-03-08 19:49+0100\n"
+"Project-Id-Version: RankMath Pro v2.6.0\n"
+"POT-Creation-Date: 2021-04-14 20:49+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
 "Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
@@ -460,12 +460,12 @@ msgid "All Redirection Categories"
 msgstr "Alle Umleitungskategorien"
 
 #: includes/admin/class-redirection.php:393
-#: includes/modules/local-seo/class-local-seo.php:196
+#: includes/modules/local-seo/class-local-seo.php:194
 msgid "Parent Category"
 msgstr "Übergeordnete Kategorie"
 
 #: includes/admin/class-redirection.php:394
-#: includes/modules/local-seo/class-local-seo.php:197
+#: includes/modules/local-seo/class-local-seo.php:195
 msgid "Parent Category:"
 msgstr "Übergeordnete Kategorie:"
 
@@ -1308,20 +1308,20 @@ msgstr "In den ACF-Feldern hinzugefügte Bilder einbeziehen."
 msgid "Custom"
 msgstr "Benutzerdefiniert"
 
-#: includes/modules/analytics/class-analytics.php:134
+#: includes/modules/analytics/class-analytics.php:137
 msgid "Post Analytics"
 msgstr "Beitragsanalysen"
 
-#: includes/modules/analytics/class-analytics.php:136
+#: includes/modules/analytics/class-analytics.php:139
 msgid "Analytics Report"
 msgstr "Analysenbericht"
 
-#: includes/modules/analytics/class-analytics.php:189
-#: includes/modules/analytics/class-analytics.php:206
+#: includes/modules/analytics/class-analytics.php:192
+#: includes/modules/analytics/class-analytics.php:209
 msgid "Country"
 msgstr "Land"
 
-#: includes/modules/analytics/class-analytics.php:270
+#: includes/modules/analytics/class-analytics.php:273
 msgid ""
 "Enter the number of days to keep Analytics data in your database. The "
 "maximum allowed days are 180. Though, 2x data will be stored in the DB for "
@@ -1332,12 +1332,12 @@ msgstr ""
 "180. Es werden jedoch 2x Daten in der DB gespeichert, um die Differenz "
 "korrekt berechnen zu können."
 
-#: includes/modules/analytics/class-analytics.php:288
+#: includes/modules/analytics/class-analytics.php:291
 msgid "Monitor SEO Performance"
 msgstr "SEO-Leistung überwachen"
 
 #. translators: Link to kb article
-#: includes/modules/analytics/class-analytics.php:291
+#: includes/modules/analytics/class-analytics.php:294
 #, php-format
 msgid ""
 "This option allows you to monitor the SEO performance of all of your sites "
@@ -1349,16 +1349,16 @@ msgstr ""
 "Websites auf Anhieb überprüfen können. <a href=\"%1$s\" target=\"_blank"
 "\">Mehr erfahren</a>."
 
-#: includes/modules/analytics/class-rest.php:212
-#: includes/modules/analytics/class-rest.php:236
+#: includes/modules/analytics/class-rest.php:233
+#: includes/modules/analytics/class-rest.php:278
 msgid "Sorry, no keyword found."
 msgstr "Leider kein Schlüsselwort gefunden."
 
-#: includes/modules/analytics/class-rest.php:276
+#: includes/modules/analytics/class-rest.php:329
 msgid "Sorry, no record id found."
 msgstr "Leider keine Datensatz-ID gefunden."
 
-#: includes/modules/analytics/class-rest.php:284
+#: includes/modules/analytics/class-rest.php:337
 msgid "Sorry, no post id found."
 msgstr "Es wurde leider keine Beitrags-ID gefunden."
 
@@ -1652,93 +1652,93 @@ msgid "Your Locations KML file can be found here: %s"
 msgstr "Ihre Standort-KML-Datei finden Sie hier: %s"
 
 #. translators: Post Type Plural Name
-#: includes/modules/local-seo/class-local-seo.php:133
+#: includes/modules/local-seo/class-local-seo.php:131
 #, php-format
 msgid "All %s"
 msgstr "Alle %s"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:135
+#: includes/modules/local-seo/class-local-seo.php:133
 #, php-format
 msgid "Add New %s"
 msgstr "Neue %s hinzufügen"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:137
+#: includes/modules/local-seo/class-local-seo.php:135
 #, php-format
 msgid "New %s"
 msgstr "Neue %s"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:139
+#: includes/modules/local-seo/class-local-seo.php:137
 #, php-format
 msgid "Edit %s"
 msgstr "Bearbeiten %s"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:141
+#: includes/modules/local-seo/class-local-seo.php:139
 #, php-format
 msgid "Update %s"
 msgstr "Aktualisiere %s"
 
 #. translators: Post Type Singular Name
 #. translators: Post Type Plural Name
+#: includes/modules/local-seo/class-local-seo.php:141
 #: includes/modules/local-seo/class-local-seo.php:143
-#: includes/modules/local-seo/class-local-seo.php:145
 #, php-format
 msgid "View %s"
 msgstr "Zeige %s"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:147
+#: includes/modules/local-seo/class-local-seo.php:145
 #, php-format
 msgid "Search %s"
 msgstr "Suchen %s"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:180
-#: includes/modules/local-seo/class-local-seo.php:194
+#: includes/modules/local-seo/class-local-seo.php:178
+#: includes/modules/local-seo/class-local-seo.php:192
 #, php-format
 msgid "%s categories"
 msgstr "%s Kategorien"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:182
+#: includes/modules/local-seo/class-local-seo.php:180
 #, php-format
 msgid "%s category"
 msgstr "%s Kategorie"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:184
+#: includes/modules/local-seo/class-local-seo.php:182
 #, php-format
 msgid "All %s categories"
 msgstr "Alle %s Kategorien"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:186
+#: includes/modules/local-seo/class-local-seo.php:184
 #, php-format
 msgid "Edit %s category"
 msgstr "%s-Kategorie bearbeiten"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:188
+#: includes/modules/local-seo/class-local-seo.php:186
 #, php-format
 msgid "Update %s category"
 msgstr "%s-Kategorie aktualisieren"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:190
+#: includes/modules/local-seo/class-local-seo.php:188
 #, php-format
 msgid "Add New %s category"
 msgstr "Neue %s-Kategorie hinzufügen"
 
 #. translators: Post Type Singular Name
-#: includes/modules/local-seo/class-local-seo.php:192
+#: includes/modules/local-seo/class-local-seo.php:190
 #, php-format
 msgid "New %s category"
 msgstr "Neue %s-Kategorie"
 
-#: includes/modules/local-seo/class-local-seo.php:195
+#: includes/modules/local-seo/class-local-seo.php:193
 msgid "Search categories"
 msgstr "Kategorien durchsuchen"
 
@@ -3325,13 +3325,13 @@ msgid "Default Genres"
 msgstr "Standard-Genres"
 
 #. translators: Taxonomy Name
-#: includes/modules/news-sitemap/settings-news.php:85
+#: includes/modules/news-sitemap/settings-news.php:86
 #, php-format
 msgid "Exclude %s"
 msgstr "%s ausschließen"
 
 #. translators: 1. Taxonomy Name 2. Post Type
-#: includes/modules/news-sitemap/settings-news.php:90
+#: includes/modules/news-sitemap/settings-news.php:91
 #, php-format
 msgid "%1$s to exclude for %2$s."
 msgstr "%1$s auszuschließen für %2$s."
@@ -3554,11 +3554,11 @@ msgstr "Automatische Bildgenerierung für das automatisch erkannte Video."
 msgid "Remove Media Data from RSS feed"
 msgstr "Mediendaten aus dem RSS-Feed entfernen"
 
-#: includes/modules/schema/class-video.php:178
+#: includes/modules/schema/class-video.php:183
 msgid "Generate Video Schema for Old Posts/Pages"
 msgstr "Videoschema für alte Beiträge/Seiten generieren"
 
-#: includes/modules/schema/class-video.php:179
+#: includes/modules/schema/class-video.php:184
 msgid ""
 "Add Video schema to posts which have YouTube or Vimeo Video in the content. "
 "Applies to only those Posts/Pages/CPTs in which Autodetect Video Option is "
@@ -3568,7 +3568,7 @@ msgstr ""
 "im Inhalt haben. Gilt nur für Beiträge/Seiten/CPTs, in denen die Option "
 "„Video automatisch erkennen“ aktiviert ist."
 
-#: includes/modules/schema/class-video.php:180
+#: includes/modules/schema/class-video.php:185
 msgid ""
 "Are you sure you want to add Video Schema to the posts/pages with the video "
 "in the content? This action is irreversible."
@@ -3576,15 +3576,15 @@ msgstr ""
 "Sind Sie sicher, dass Sie das Video-Schema zu den Beiträgen/Seiten mit dem "
 "Video im Inhalt hinzufügen möchten? Diese Aktion ist nicht umkehrbar."
 
-#: includes/modules/schema/class-video.php:181
+#: includes/modules/schema/class-video.php:186
 msgid "Generate"
 msgstr "Generieren"
 
-#: includes/modules/schema/class-video.php:200
+#: includes/modules/schema/class-video.php:205
 msgid "No posts found to convert."
 msgstr "Keine Beiträge zum Konvertieren gefunden."
 
-#: includes/modules/schema/class-video.php:205
+#: includes/modules/schema/class-video.php:210
 msgid ""
 "Conversion started. A success message will be shown here once the process "
 "completes. You can close this page."
@@ -3665,6 +3665,70 @@ msgstr "Verteilung"
 #: includes/modules/schema/shortcode/howto.php:25
 msgid "Total Time"
 msgstr "Gesamtzeit"
+
+#: includes/modules/schema/shortcode/jobposting.php:20
+msgid "Salary"
+msgstr "Gehalt"
+
+#: includes/modules/schema/shortcode/jobposting.php:27
+msgid "Salary Currency"
+msgstr "Gehaltswährung"
+
+#: includes/modules/schema/shortcode/jobposting.php:34
+msgid "Payroll"
+msgstr "Gehaltsabrechnung"
+
+#: includes/modules/schema/shortcode/jobposting.php:41
+msgid "Date Posted"
+msgstr "Datum der Veröffentlichung"
+
+#: includes/modules/schema/shortcode/jobposting.php:48
+msgid "Posting Expiry Date"
+msgstr "Ablaufdatum des Beitrags"
+
+#: includes/modules/schema/shortcode/jobposting.php:55
+msgid "Unpublish when expired"
+msgstr "Veröffentlichung aufheben, wenn sie abgelaufen ist"
+
+#: includes/modules/schema/shortcode/jobposting.php:62
+msgid "Employment Type "
+msgstr "Beschäftigungsart "
+
+#: includes/modules/schema/shortcode/jobposting.php:69
+msgid "Hiring Organization "
+msgstr "Einstellende Organisation "
+
+#: includes/modules/schema/shortcode/jobposting.php:76
+msgid "Organization URL"
+msgstr "URL der Organisation"
+
+#: includes/modules/schema/shortcode/jobposting.php:83
+msgid "Organization Logo"
+msgstr "Logo der Organisation"
+
+#: includes/modules/schema/shortcode/jobposting.php:90
+msgid "Job Type"
+msgstr "Art der Anstellung"
+
+#: includes/modules/schema/shortcode/jobposting.php:106
+msgid "Job Location"
+msgstr "Arbeitsort"
+
+#: includes/modules/schema/shortcode/jobposting.php:114
+msgid "Location"
+msgstr "Standort"
+
+#: includes/modules/schema/shortcode/jobposting.php:130
+msgid "Education Required"
+msgstr "Ausbildung erforderlich"
+
+#: includes/modules/schema/shortcode/jobposting.php:140
+msgid "Experience Required"
+msgstr "Erfahrung erforderlich"
+
+#: includes/modules/schema/shortcode/jobposting.php:141
+msgid "Months"
+msgstr "Monate"
 
 #: includes/modules/schema/shortcode/movie.php:19
 msgid "Director"
@@ -4096,9 +4160,6 @@ msgstr "https://s.rankmath.com/pro"
 
 #~ msgid "Learn more"
 #~ msgstr "Mehr erfahren"
-
-#~ msgid "Post Types:"
-#~ msgstr "Beitragsarten:"
 
 #~ msgid "Attachments"
 #~ msgstr "Dateianhänge"

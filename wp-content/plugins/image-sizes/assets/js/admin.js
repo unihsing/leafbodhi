@@ -28,17 +28,35 @@ jQuery(function($){
 		$('#enabled-counter .counter').text(enabled);
 	}).change();
 
-	// cx-regen-thumbs
-	$('#cxis-regen-thumbs').click(function(e){
-		$('#cxis-regen-thumbs').text(CXIS.regening).attr('disabled', true);
-		$('#cxis-message').html('').hide();
+	var limit 	= 50;
+	var offset 	= 0;
+	var thumbs_deleted 	= 0;
+	var thumbs_created 	= 0;
+
+	function regenerate( limit, offset, thumbs_deleted, thumbs_created ) {
 		$.ajax({
-			url: CXIS.ajaxurl,
-			type: 'GET',
-			data: { action : 'cxis-regen-thumbs', '_nonce' : CXIS.nonce },
+				url: CXIS.ajaxurl,
+				type: 'GET',
+				data: { action : 'cxis-regen-thumbs', 
+				'offset' : offset, 
+				'limit' : limit, 
+				'thumbs_deleteds' : thumbs_deleted, 
+				'thumbs_createds' : thumbs_created, 
+				'_nonce' : CXIS.nonce 
+			},
 			success: function(res) {
-				$('#cxis-regen-thumbs').text(CXIS.regen).attr('disabled', false);
-				$('#cxis-message').html(res.message).show();
+
+				if ( res.has_image ) {
+					var progress = res.offset / res.total_images_count * 100;
+					$('.image-sizes-progress-content').text(Math.ceil( progress ) + '%').css({'width': progress + '%'});
+
+					regenerate( limit, res.offset, res.thumbs_deleted, res.thumbs_created );
+				}
+				else {
+					$('#cxis-regen-thumbs').text(CXIS.regen).attr('disabled', false);
+					$('#cxis-message').html(res.message).show();
+					$('.image-sizes-progress-panel .image-sizes-progress-content').addClass('progress-full');
+				}
 				console.log(res);
 			},
 			error: function(err){
@@ -46,6 +64,18 @@ jQuery(function($){
 				console.log(err);
 			}
 		})
+	}
+
+	// cx-regen-thumbs
+	$('#cxis-regen-thumbs').click(function(e){
+		$('#cxis-regen-thumbs').text(CXIS.regening).attr('disabled', true);
+		$('#cxis-message').html('').hide();
+		$('.image-sizes-progress-panel').hide();
+
+		regenerate( limit, offset, thumbs_deleted, thumbs_created );
+
+		// $('#cxis-regen-wrap').append('<progress id="cxis-progress" value="0" max="100"></progress>');
+		$('#cxis-regen-wrap').after('<div class="image-sizes-progress-panel"><div class="image-sizes-progress-content" style="width:0%"><span>0%</span></div></div></div>');
 	});
 
 	// dismiss
@@ -60,4 +90,16 @@ jQuery(function($){
 			error: function(err){console.log(err);}
 		})
 	})
+
+	$('.image-sizes-help-heading').click(function(e){
+		var $this = $(this);
+		var target = $this.data('target');
+		$('.image-sizes-help-text:not('+target+')').slideUp();
+		if($(target).is(':hidden')){
+			$(target).slideDown();
+		}
+		else {
+			$(target).slideUp();
+		}
+	});
 })
