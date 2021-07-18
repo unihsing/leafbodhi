@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.leafbodhi.com/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.leafbodhi.com/post-sitemap.xml</loc>
+		<lastmod>2021-05-24T21:42:51+08:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.leafbodhi.com/page-sitemap.xml</loc>
+		<lastmod>2021-04-23T14:40:45+08:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.leafbodhi.com/category-sitemap.xml</loc>
+		<lastmod>2021-05-24T21:42:51+08:00</lastmod>
+	</sitemap>
+</sitemapindex>
